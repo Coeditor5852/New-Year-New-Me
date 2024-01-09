@@ -21,7 +21,7 @@
     border-radius: 16px;
     width: 1320px;
     height: 600px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
     margin-top: 50px;
     margin-left: auto;
@@ -327,3 +327,15 @@
     right: 530px;
     top: -545px;
 }
+
+/* portfolio section starts here */
+
+.portfolio img{
+    flex-basis: 33.33%;
+    margin-bottom: 10px;    
+}
+.portfolio-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+

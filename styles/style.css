@@ -153,13 +153,13 @@
     border-radius: 25px;
 }
 
-.event-details span{
+.event-details span {
     color: #F00;
     text-align: center;
     line-height: 56px;
 }
 
-.event-details-text{
+.event-details-text {
     margin-left: 385px;
     margin-right: 385px;
     display: block;
@@ -167,4 +167,76 @@
     text-align: center;
     position: relative;
     top: 100px;
+}
+
+.coming-soon-sparkles {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+}
+
+.coming-soon-sparkles img {
+    width: 100%;
+    /* position: relative; */
+}
+
+.coming-soon-container {
+    display: flex;
+    width: 1600px;
+    height: 635px;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.coming-soon-offer-heading {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    right: 60px;
+}
+
+.coming-soon-offer-big-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 18px;
+}
+
+.coming-soon-paragraph {
+    max-width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    text-align: left;
+    margin-left: 80px;
+    justify-content: center;
+}
+
+#date-paragraph{
+    margin-top: 16px;
+}
+
+.coming-soon-date-heading {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    right: 50px;
+}
+
+#new-year{
+    margin-top: 43px;
+    position: relative;
+    right: 50px;
 }
